@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class RequestController {
     @GetMapping("/form/html")
     public String helloForm() {
-        return "hello-request-form";
+        return "hello-request-form";   //요청받는 페이지
     }
 
     // [Request sample]
